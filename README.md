@@ -1,8 +1,26 @@
-- 👋 Hi, I’m @gcourchinoux
-- 👀 I’m interested in compiler design and isa.
-- 📫 you can contact me gaspard.courchinoux@protonmail.ch
+# about this github account 
 
-<!---
-gcourchinoux/gcourchinoux is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+Hi, my name is Gaspard COURCHINOUX and i'm a low level developer. 
+
+I have write a instruction set architecture : is the Gaspard architecture. 
+
+On this github account, you will find the implementation of this architecture to GNU toolchain. 
+
+
+
+# gcc 
+the base of the port is gnu gcc 10. 
+
+the Gaspard backend is generating correct code. Need to write test. The port of the linux kernel will be a massive usefull test ! 
+
+
+# binutils 
+
+Need to write the support of jump and branch (b. and jmp , jsr). 
+
+need to write into libopcodes and gas. 
+
+# linux kernel
+
+I have not started yet, I have started to read the documentation.
